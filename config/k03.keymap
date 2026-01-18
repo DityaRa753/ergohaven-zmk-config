@@ -78,7 +78,18 @@
 &kp TAB    &kp SQT   &kp COMMA  &kp DOT  &kp P   &kp Y                         &kp F   &kp G   &kp C          &kp R      &kp L   &kp FSLH
 &kp LSHFT  &kp A     &kp O      &kp E    &kp U   &kp I                         &kp D   &kp H   &kp T          &kp N      &kp S   &kp MINUS
 &kp LCTRL  &kp SEMI  &kp Q      &kp J    &kp K   &kp X   &kp LBKT    &kp RBKT  &kp B   &kp M   &kp W          &kp V      &kp Z   &kp GRAVE
-                     &to 0      &trans   &trans  &trans  &trans      &trans    &trans  &none   &kp BACKSLASH  &kp EQUAL
+                     &to 0      &trans   &trans  &mo 5   &trans      &trans    &trans  &none   &kp BACKSLASH  &kp EQUAL
+            >;
+        };
+
+        nav_dvorak {
+            display-name = "Nav_dvorak";
+            bindings = <
+&kp F1  &kp F2  &kp F3        &kp F4    &kp F5         &kp F6                        &kp F7           &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &kp HOME      &kp UP    &kp END        &kp INS                       &kp PG_UP        &none   &none   &none    &trans   &trans
+&trans  &trans  &kp LEFT      &kp DOWN  &kp RIGHT      &none                         &kp PG_DN        &none   &none   &none    &trans   &trans
+&trans  &trans  &kp LC(LEFT)  &kp CAPS  &kp LC(RIGHT)  &kp DELETE  &trans    &trans  &kp PRINTSCREEN  &none   &none   &none    &trans   &trans
+                &trans        &trans    &trans         &trans      &trans    &trans  &mo 3            &trans  &none   &trans
             >;
         };
     };
